@@ -2,7 +2,7 @@ name: Check Results Automatic
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # هيشتغل كل ربع ساعة
+    - cron: '*/10 * * * *' # هيشتغل كل ربع ساعة
   workflow_dispatch: # عشان تقدر تشغله بإيدك لو حبيت تختبره
 
 jobs:
